@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "uTOK",
+    "slug": "utok",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adapt.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hansade.utok"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "fonts": {
+      "Poppins": {
+        "regular": "./assets/fonts/Poppins-Regular.ttf",
+        "bold": "./assets/fonts/Poppins-Bold.ttf",
+        "semibold": "./assets/fonts/Poppins-SemiBold.ttf",
+        "medium": "./assets/fonts/Poppins-Medium.ttf",
+        "light": "./assets/fonts/Poppins-Light.ttf"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "afd01141-ff24-4b3e-8a91-d690db529d23"
+      }
+    },
+    "owner": "hansade"
+  }
+}
